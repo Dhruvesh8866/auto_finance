@@ -1,0 +1,18 @@
+
+**************** Please follow the instructions to setup merchant account & api integration ****************
+
+
+
+	1. Get the merchant id & secret key from dashboard > profile
+
+	2. Uncomment upi id type in line 5 & 7. 
+	   * If your collection upi id type is merchant, uncomment line 5. 
+	   * If your collection upi id type is merchant, uncomment line 7.
+
+	3. Set the merchant ID in line 45
+
+	4. Enter the secret key in the line no 5 of the file webhook.php
+
+	5. You can change the UPI collection id from dashboard > profile> PG Settings
+
+	6. You can set the UPI ID type (merchant / non merchant) in dashboard > profile > PG Settings
